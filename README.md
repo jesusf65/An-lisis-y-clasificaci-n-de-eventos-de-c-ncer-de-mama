@@ -19,6 +19,10 @@ Este dominio de cáncer de mama se obtuvo del Centro Médico Universitario, Inst
 
 Para llevar a cabo el proceso de análisis exploratorio de los datos y realizar la clasificación del modelo se hizo uso de la metodología CRISP-DM en el cual se basa en 4 grandes procesos para realizar el proyecto, los cuales son:
 
+<p align="center">
+  <img src="Crisp.jpg" alt="Texto alternativo" width="500"/>
+</p>
+
 1. Entendimiento del negocio: En este apartado se formularon 3 preguntas de investigación para tener unos objetivos para alcanzar a medida que se vaya progresando en el proyecto.
 2. Entendimiento de los datos: En el entendimiento de los datos de llevó a cabo todo el proceso del EDA de los datos. Es importante resaltar que al tener un Dataset cuyas variables son de tipo categóricas (a excepción de una variable) el análisis univariado y bivariado se limitó únicamente a análisis de tablas de frecuencia y gráficos como diagramas de barras y de pastel (para ello se utilizó la librería Plotly Express), ante la ausencia de variables numéricas no se pudo realizar un análisis de correlación o pruebas de hipótesis entre estas para determinar un patrón de distribución entre las variables. En base a ello, se realizaron múltiples actividades tales como:
   -  Diccionario de variables.
@@ -52,3 +56,9 @@ Para la clasificación del modelo se realizó la separación 80/20 de los datos 
 
 ###  Conclusiones.
 
+
+### Bibliografia.
+
+- Wolberg, William, Mangasarian, Olvi, Street,Nick, and Street,W.. (1995). Breast Cancer Wisconsin (Diagnostic). UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
+- Witten, I. H., & Frank, E. (2000). Data Mining: Practical knowledge discovery in databases. Amsterdam: Elsevier.
+- Ochoa, T. (2020). Plotly: Python Data Visualization Library. https://plotly.com/python/
